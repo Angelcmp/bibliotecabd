@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIBLIOTECA DE ANGEL</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="database.png">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"/>
+</head>
+<body>
+    <header class="container header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">BIBLIOTECA DE JOSE Y ANGEL</a>
+            </div>
+            <div class="nav__menu">
+                <ul class="nav_menu_list">
+                <li class="nav_menu_list_item">
+                    <a href="index.html" class="nav__link">INICIO</a>
+                </li>
+                <li class="nav_menu_list_item dropdown">
+                    <a href="basededatos.html" class="nav__link">BASE DE DATOS</a>
+                    <div class="dropdown-content">
+                    <a href="gestorbd.html" class="nav__link">GESTORES BD</a>
+                    <a href="videos.html" class="nav__link">VIDEOS</a>
+                    <a href="consultas.html" class="nav__link">CONSULTAS SQL</a>
+                    </div>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="bdeducativa.html" class="nav__link">BASE DE DATOS EDUCATIVA</a>
+                </li>
+                <li class="nav_menu_list_item dropdown">
+                    <a href="tendencias.html" class="nav__link">TENDENCIAS DE LAS BD</a>
+                    <div class="dropdown-content">
+                    <a href="ciudadint.html" class="nav__link">CIUDADES INTELIGENTES</a>
+                    <a href="ia.html" class="nav__link">INTELIGENCIA ARTIFICIAL</a>
+                    </div>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="componentes.html" class="nav__link">COMPONENTES</a>
+                </li>
+                </ul>
+    
+                <!-- ==== NAV-CLOSE-BUTTON ==== -->
+                <button class="btn btn_close">
+                <i class="bx bx-x bx-lg"></i>
+                </button>
+            </div>
+    
+            <!-- ==== NAV-TOGGLE-BUTTON ==== -->
+            <button class="btn btn_nav_toggle">
+                <i class="bx bx-menu bx-lg"></i>
+            </button>
+            </nav>
+        </header>
+
+    <!-- ======
+    HERO
+    ====== -->
+    <main class="container hero">
+        <!-- ==== HERO-DESCRIPTION ==== -->
+        <section class="hero__desc">
+        <h2 class="hero__heading">
+            CONSULTAS 
+            <span>DE SQL</span>
+            <p class="hero__subtext">
+                En esta sección se podran generar consultas en tiempo real de las tablas.
+            </p>
+        </h2>
+
+        </section>
+    </main>
+
+    <!-- ======
+    FEATURED-SECTION
+    ====== -->
+    <section class="container featured_by">
+        <h4>PAGINA CREADA POR ANGEL CAMPO</h4>
+    </section>
+
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./JS/script.js"></script>
+</body>
+</html>

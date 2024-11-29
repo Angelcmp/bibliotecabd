@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIBLIOTECA DE ANGEL</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="database.png">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"/>
+</head>
+<body>
+    <header class="container header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">BIBLIOTECA DE JOSE Y ANGEL</a>
+            </div>
+            <div class="nav__menu">
+                <ul class="nav_menu_list">
+                <li class="nav_menu_list_item">
+                    <a href="index.html" class="nav__link">INICIO</a>
+                </li>
+                <li class="nav_menu_list_item dropdown">
+                    <a href="basededatos.html" class="nav__link">BASE DE DATOS</a>
+                    <div class="dropdown-content">
+                    <a href="gestorbd.html" class="nav__link">GESTORES BD</a>
+                    <a href="videos.html" class="nav__link">VIDEOS</a>
+                    <a href="consultas.html" class="nav__link">CONSULTAS SQL</a>
+                    </div>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="bdeducativa.html" class="nav__link">BASE DE DATOS EDUCATIVA</a>
+                </li>
+                <li class="nav_menu_list_item dropdown">
+                    <a href="tendencias.html" class="nav__link">TENDENCIAS DE LAS BD</a>
+                    <div class="dropdown-content">
+                    <a href="ciudadint.html" class="nav__link">CIUDADES INTELIGENTES</a>
+                    <a href="ia.html" class="nav__link">INTELIGENCIA ARTIFICIAL</a>
+                    </div>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="componentes.html" class="nav__link">COMPONENTES</a>
+                </li>
+                </ul>
+
+                <button class="btn btn_close">
+                <i class="bx bx-x bx-lg"></i>
+                </button>
+            </div>
+
+            <button class="btn btn_nav_toggle">
+                <i class="bx bx-menu bx-lg"></i>
+            </button>
+            </nav>
+        </header>
+
+    <main class="container hero">
+        <section class="hero__desc">
+        <h2 class="hero__heading">
+            CIUDADES 
+            <span>INTELIGENTES</span>
+            <img class="container_bg" src="images/cidin.webp">
+            <p class="hero__subtext">
+                Las ciudades inteligentes (o smart cities) son un concepto emergente en la planificación urbana que aprovecha la tecnología y los datos para mejorar la calidad de vida de sus habitantes, optimizar el uso de los recursos y promover la sostenibilidad. En una ciudad inteligente, las infraestructuras urbanas, los servicios públicos y la gestión del entorno están interconectados mediante tecnologías avanzadas como el Internet de las Cosas (IoT), la inteligencia artificial (IA), el big data y la conectividad 5G.
+            </p>
+        </h2>
+
+        <h2 class="hero__heading">BASE DE DATOS DISTRIBUIDA</h2>
+        <img class="container_img" src="images/bdd.png">
+        <p class="hero__subtext">
+            En ciudades inteligentes, los datos se generan continuamente desde múltiples fuentes, como sensores IoT, cámaras, aplicaciones móviles y servicios públicos. Las bases de datos distribuidas son esenciales para manejar grandes volúmenes de datos en tiempo real y garantizar la disponibilidad en distintas ubicaciones.
+            <br>
+            Ejemplo: Bases como Cassandra y CockroachDB son utilizadas para gestionar datos de tráfico, energía y transporte.
+        </p>
+
+        <h2 class="hero__heading">BASE DE DATOS EN LA NUBE</h2>
+        <img class="container_img" src="images/bfn.png">
+        <p class="hero__subtext">
+            La migración a soluciones basadas en la nube permite un almacenamiento escalable, redundancia, y análisis en tiempo real.
+            <br>
+            Ejemplo: Servicios como Google BigQuery, AWS DynamoDB, y Azure Cosmos DB se usan para análisis urbanos y gestión de recursos.
+        </p>
+
+        <h2 class="hero__heading">BASE DE DATOS DE SERIES TEMPORALES</h2>
+        <img class="container_img" src="images/bdt.jpg">
+        <p class="hero__subtext">
+            Estas bases son ideales para almacenar datos generados a intervalos regulares, como lecturas de sensores IoT en redes de agua, electricidad o tráfico.
+            <br>
+            Ejemplo: InfluxDB y TimescaleDB para monitoreo en tiempo real.
+        </p>
+
+        <h2 class="hero__heading">BASE DE DATOS DE GRAPH (DE GRAFOS)</h2>
+        <img class="container_img" src="images/bdg.svg">
+        <p class="hero__subtext">
+            En una ciudad inteligente, los datos están interconectados: transporte público, infraestructuras, servicios de emergencia y más. Las bases de grafos permiten modelar y analizar relaciones complejas entre estos datos.
+            <br>
+            Ejemplo: Neo4j se usa para optimizar rutas de transporte o analizar redes de suministro energético.
+        </p>
+
+
+        <h2 class="hero__heading">BASE DE DATOS MULTIMODELO</h2>
+        <img class="container_img" src="images/bdm.png">
+        <p class="hero__subtext">
+            Estas bases soportan múltiples tipos de datos (documentos, grafos, relacionales, etc.) en un solo sistema. Son ideales para manejar la diversidad de datos de una ciudad inteligente.
+            <br>
+            Ejemplo: ArangoDB y OrientDB.
+        </p>
+
+        <h2 class="hero__heading">AUTOMATIZACION Y PROCESAMIENTO EN TIEMPO REAL</h2>
+        <img class="container_img" src="images/ATR.png">
+        <p class="hero__subtext">
+            Las bases de datos modernas integran capacidades de procesamiento en tiempo real para analizar flujos de datos y tomar decisiones automatizadas.
+            <br>
+            Ejemplo: Gestión de semáforos inteligentes según el flujo vehicular o predicción de demandas de energía.
+        </p>
+
+        <h2 class="hero__heading">Conclusión Final</h2>
+        <p class="hero__subtext">
+            Las ciudades inteligentes representan una evolución significativa en la forma en que entendemos y gestionamos los entornos urbanos. A través de la integración de tecnologías avanzadas como el Internet de las Cosas, la inteligencia artificial y el big data, las ciudades inteligentes buscan resolver problemas urbanos complejos, mejorar la calidad de vida de los ciudadanos y promover un desarrollo sostenible. La capacidad de estas ciudades para gestionar de manera eficiente los recursos, optimizar los servicios públicos y facilitar la participación ciudadana abre nuevas posibilidades para crear entornos urbanos más habitables y sostenibles.
+        </p>
+        <p class="hero__subtext">
+            Sin embargo, el camino hacia la implementación exitosa de ciudades inteligentes requiere no solo de avances tecnológicos, sino también de un enfoque inclusivo que considere la equidad, la privacidad y la seguridad de los ciudadanos. Si bien las oportunidades que ofrecen son vastas, también es esencial abordar los desafíos sociales, económicos y éticos que pueden surgir a medida que las tecnologías continúan transformando nuestras ciudades.
+            <br>
+            En definitiva, las ciudades inteligentes no son solo un objetivo tecnológico, sino un paso hacia una urbanización más inteligente y humana, donde la innovación se pone al servicio de las personas para construir un futuro urbano más eficiente, resiliente y sostenible.
+        </p>
+
+
+        <h2 class="hero__heading">ENLACES ACADEMICOS</h2>
+        <a class="hero__subtext" href="http://revistas.elpoli.edu.co/index.php/pol/article/view/494">REVISTA EPOLI</a>
+        <a class="hero__subtext" href="https://dialnet.unirioja.es/servlet/articulo?codigo=8951763">DIALNET</a>
+
+
+
+
+
+
+
+        </section>
+    </main>
+
+    <section class="container featured_by">
+        <h4>PAGINA CREADA POR ANGEL CAMPO</h4>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+</html>

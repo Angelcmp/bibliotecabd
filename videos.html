@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIBLIOTECA DE ANGEL</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="database.png">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"/>
+</head>
+<body>
+    <header class="container header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">BIBLIOTECA DE JOSE Y ANGEL</a>
+            </div>
+            <div class="nav__menu">
+                <ul class="nav_menu_list">
+                <li class="nav_menu_list_item">
+                    <a href="index.html" class="nav__link">INICIO</a>
+                </li>
+                <li class="nav_menu_list_item dropdown">
+                    <a href="basededatos.html" class="nav__link">BASE DE DATOS</a>
+                    <div class="dropdown-content">
+                    <a href="gestorbd.html" class="nav__link">GESTORES BD</a>
+                    <a href="videos.html" class="nav__link">VIDEOS</a>
+                    <a href="consultas.html" class="nav__link">CONSULTAS SQL</a>
+                    </div>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="bdeducativa.html" class="nav__link">BASE DE DATOS EDUCATIVA</a>
+                </li>
+                <li class="nav_menu_list_item dropdown">
+                    <a href="consultas.html" class="nav__link">TENDENCIAS DE LAS BD</a>
+                    <div class="dropdown-content">
+                    <a href="gestorbd.html" class="nav__link">CIUDADES INTELIGENTES</a>
+                    <a href="videos.html" class="nav__link">INTELIGENCIA ARTIFICIAL</a>
+                    </div>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="videos.html" class="nav__link">COMPONENTES</a>
+                </li>
+                </ul>
+                <button class="btn btn_close">
+                <i class="bx bx-x bx-lg"></i>
+                </button>
+            </div>
+            <button class="btn btn_nav_toggle">
+                <i class="bx bx-menu bx-lg"></i>
+            </button>
+            </nav>
+        </header>
+    <main class="container hero">
+        <section class="hero__desc">
+        <h2 class="hero__heading">
+            VIDEOS 
+            <span>EXPLICATIVOS</span>
+            <p class="hero__subtext">
+                En esta sección se agregaran videos ilustrativos acerca de las base de datos y sus consultas.
+            </p>
+        </h2>
+
+
+        <h2 class="hero__heading">Introducción</h2>
+        <p class="hero__subtext">
+            MySQL Workbench y Microsoft Access son dos herramientas ampliamente utilizadas para gestionar bases de datos, pero están orientadas a diferentes necesidades y contextos. A continuación, se presentan las principales características y diferencias entre ambas.
+        </p>
+
+        <iframe class="video" src="https://drive.google.com/file/d/1qVLBHn0qX-cj48UyWwRRT5Ge6f6XWbqO/preview" width="1080" height="725" allow="autoplay"></iframe>
+
+
+        <h2 class="hero__heading">Propósito y Uso Principal</h2>
+        <h2 class="hero__heading">MySQL Workbench</h2>
+        <img class="container_img" src="images/mysqlw.jpg">
+        <p class="hero__subtext">
+            MySQL Workbench es una herramienta de diseño y administración para bases de datos que utiliza el sistema de gestión de bases de datos MySQL. Es especialmente popular en aplicaciones web y de servidor debido a su robustez y escalabilidad.
+        </p>
+        <p class="hero__subtext">
+            Uso Principal: Ideal para aplicaciones de gran escala, desarrolladores de bases de datos, y proyectos que requieren bases de datos relacionales en servidores.
+        </p>
+        <h2 class="hero__heading">Microsoft Access</h2>
+        <img class="container_img" src="images/maccess.png">
+        <p class="hero__subtext">
+            Microsoft Access es un sistema de gestión de bases de datos de escritorio que forma parte de la suite de Microsoft Office. Está diseñado para usuarios de negocios o pequeñas empresas que necesitan gestionar bases de datos sin necesidad de conocimientos técnicos avanzados.
+        </p>
+        <p class="hero__subtext">
+            Uso Principal: Ideal para bases de datos de pequeña a mediana escala, con facilidad de uso para usuarios no técnicos que deseen crear y administrar bases de datos de manera rápida.
+        </p>
+
+        <h2 class="hero__heading">Escalabilidad</h2>
+        <img class="container_img" src="images/escalabilidad.avif">
+        <p class="hero__subtext">
+            MySQL Workbench es altamente escalable y se utiliza comúnmente en grandes proyectos y sistemas empresariales, soportando miles de usuarios concurrentes y bases de datos con millones de registros.
+        </p>
+        <p class="hero__subtext">
+            Microsoft Access está diseñado para bases de datos más pequeñas, generalmente limitadas a un máximo de 2 GB de datos. No está optimizado para manejar grandes cantidades de usuarios o registros.
+        </p>
+
+
+        <h2 class="hero__heading">Facilidad de Uso</h2>
+        <img class="container_img" src="images/facilidad.jpg">
+        <p class="hero__subtext">
+            MySQL Workbench está diseñado para desarrolladores y administradores de bases de datos, por lo que su uso puede ser complejo para personas sin experiencia técnica. Ofrece una interfaz gráfica, pero requiere conocimientos de SQL y administración de bases de datos.
+        </p>
+        <p class="hero__subtext">
+            Microsoft Access es conocido por su facilidad de uso, con una interfaz intuitiva y accesible para usuarios no técnicos. Ofrece herramientas de arrastrar y soltar, formularios, y consultas predefinidas que facilitan la creación y gestión de bases de datos sin necesidad de programar.
+        </p>
+
+        <h2 class="hero__heading">Lenguaje de Consulta</h2>
+        <img class="container_img" src="images/consultas.png">
+        <p class="hero__subtext">
+            MySQL Workbench utiliza SQL (Structured Query Language) para interactuar con la base de datos. Requiere conocimientos de SQL para crear, modificar y consultar bases de datos de manera eficaz.
+        </p>
+        <p class="hero__subtext">
+            Microsoft Access también utiliza SQL, pero está más enfocado en consultas simples y fáciles de implementar. Para usuarios no técnicos, ofrece una interfaz gráfica que permite crear consultas mediante un enfoque visual, sin necesidad de escribir código SQL.
+        </p>
+
+        <h2 class="hero__heading">Seguridad </h2>
+        <img class="container_img" src="images/seguridad.png">
+        <p class="hero__subtext">
+            MySQL Workbench ofrece robustas funcionalidades de seguridad, incluyendo control de acceso, autenticación de usuarios, y cifrado de datos. Es ideal para aplicaciones donde la seguridad es un requisito importante.
+        </p>
+        <p class="hero__subtext">
+            Microsoft Access tiene opciones básicas de control de acceso a nivel de usuario, pero no es tan avanzado como MySQL en términos de seguridad y permisos.
+        </p>
+
+        <h2 class="hero__heading">Precio</h2>
+        <img class="container_img" src="images/precio.png">
+        <p class="hero__subtext">
+            MySQL Workbench es gratuito bajo la licencia de GPL (Licencia Pública General), lo que lo hace ideal para desarrolladores y empresas que buscan una solución sin costo.
+        </p>
+        <p class="hero__subtext">
+            Microsoft Access está disponible solo como parte de la suite Microsoft Office o mediante una suscripción a Microsoft 365. No es gratuito.
+        </p>
+
+        <h2 class="hero__heading">Conclusión</h2>
+        <p class="hero__subtext">
+            MySQL Workbench es la opción ideal para proyectos grandes, aplicaciones web, y empresas que necesitan una base de datos robusta, escalable y segura. Es perfecto para desarrolladores y administradores de bases de datos con experiencia técnica.
+        </p>
+        <p class="hero__subtext">
+            Microsoft Access es más adecuado para usuarios que necesitan una base de datos sencilla, fácil de usar, y que no requieren grandes capacidades de escalabilidad. Es ideal para pequeñas empresas o proyectos personales que necesitan administrar información de manera rápida y eficiente sin complicarse con código SQL complejo.
+        </p>
+
+
+        </section>
+    </main>
+
+    <section class="container featured_by">
+        <h4>PAGINA CREADA POR ANGEL CAMPO</h4>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
